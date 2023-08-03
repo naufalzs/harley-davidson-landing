@@ -2,3 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.line-indicator li {
+  z-index: 10;
+  width: 24px;
+  height: 7px;
+  background-color: #c1a98d;
+  transition: all 0.2s ease-in-out;
+  margin: 0 9px;
+}
+
+.line-indicator li.slick-active {
+  background-color: #fc451a;
+}
+
+.cut-box {
+  clip-path: polygon(17% 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 20%);
+}

@@ -44,7 +44,7 @@ export default function Header() {
         <ul className={`flex justify-center gap-x-11`}>{navList}</ul>
       </nav>
       <button
-        className={`shrink-0 w-[140px] h-[50px] bg-black hover:bg-gray-800 flex justify-center items-center px-7 py-[14px] font-title text-xl tracking-wide text-white uppercase`}
+        className={`shrink-0 bg-black hover:bg-gray-800 flex justify-center items-center px-7 pb-[14px] pt-[16px] font-title text-xl leading-none tracking-wide text-white uppercase`}
       >
         contact us
       </button>

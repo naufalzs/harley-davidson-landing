@@ -25,5 +25,28 @@
       "href": "",
       "dropdown": false
     }
+  ],
+  "carousel": [
+    {
+      "name": "breakout",
+      "src": "/images/breakout-orange.png",
+      "engine_capacity": "1.923",
+      "torque": "123.2",
+      "horsepower": "94 HP / 70 kW"
+    },
+    {
+      "name": "fat boy",
+      "src": "/images/fatboy-red.png",
+      "engine_capacity": "1.868",
+      "torque": "118.7",
+      "horsepower": "94 HP / 70 kW"
+    },
+    {
+      "name": "heritage classic",
+      "src": "/images/heritage-gold.png",
+      "engine_capacity": "1.923",
+      "torque": "118.7",
+      "horsepower": "86 HP / 62.8 kW"
+    }
   ]
 }

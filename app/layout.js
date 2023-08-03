@@ -2,6 +2,8 @@ import "./_css/globals.css";
 import { Bebas_Neue, Oswald } from "next/font/google";
 import localfont from "next/font/local";
 
+import Header from "@/components/Header";
+
 const bebasNeue = Bebas_Neue({
   weight: "400",
   subsets: ["latin"],
@@ -37,7 +39,8 @@ export default function RootLayout({ children }) {
         <div
           className={`relative min-h-screen bg-white font-body text-primary-black overflow-hidden`}
         >
-        {children}
+          <Header />
+          {children}
         </div>
       </body>
     </html>

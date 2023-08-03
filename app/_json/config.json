@@ -1,0 +1,29 @@
+{
+  "navigation": [
+    {
+      "name": "bikes",
+      "href": "",
+      "dropdown": true
+    },
+    {
+      "name": "new arrivals",
+      "href": "",
+      "dropdown": false
+    },
+    {
+      "name": "parts",
+      "href": "",
+      "dropdown": false
+    },
+    {
+      "name": "shop",
+      "href": "",
+      "dropdown": false
+    },
+    {
+      "name": "service",
+      "href": "",
+      "dropdown": false
+    }
+  ]
+}

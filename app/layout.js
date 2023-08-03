@@ -34,7 +34,11 @@ export default function RootLayout({ children }) {
         suppressHydrationWarning={true}
         className={`${bebasNeue.variable} ${oswald.variable} ${compactaBT.variable} ${oswald.className}`}
       >
+        <div
+          className={`relative min-h-screen bg-white font-body text-primary-black overflow-hidden`}
+        >
         {children}
+        </div>
       </body>
     </html>
   );

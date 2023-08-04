@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Slider from "react-slick";
 
+import Button from "./Button";
+
 import data from "@/json/config";
 
 const BikeInfo = ({ property, value, isLast }) => (
@@ -91,9 +93,7 @@ export default function Hero() {
               className={`relative w-[160px] h-[134px] bg-brown-100-transparent cut-box`}
             >
               <div className={`absolute bottom-5 inset-x-0`}>
-                <button
-                  className={`mx-auto bg-yellow-300 hover:bg-yellow-200 flex justify-center items-center px-4 pb-2 pt-3 font-title text-xl leading-none text-black uppercase`}
-                >
+                <Button color={"primary"} size={"sm"} className={"mx-auto"}>
                   helmet
                   <Image
                     src={"/images/up-right.png"}
@@ -102,7 +102,7 @@ export default function Hero() {
                     alt="arrow up right icon"
                     className={`ml-1`}
                   />
-                </button>
+                </Button>
               </div>
             </div>
             <Image
@@ -114,10 +114,10 @@ export default function Hero() {
             />
           </div>
         </div>
-        <div className={`relative mr-8 pt-20 pb-[75px] flex justify-center gap-x-6`}>
-          <button
-            className={`bg-yellow-300 hover:bg-yellow-200 flex justify-center items-center px-[30px] pb-3 pt-4 font-title text-xl leading-none text-black uppercase shadow-md`}
-          >
+        <div
+          className={`relative mr-8 pt-20 pb-[75px] flex justify-center gap-x-6`}
+        >
+          <Button color={"primary"} size={"lg"} shadow={true}>
             <Image
               src={"/images/dealer-icon.png"}
               width={30}
@@ -126,10 +126,8 @@ export default function Hero() {
               className={`mr-3`}
             />
             find a dealer
-          </button>
-          <button
-            className={`bg-neutral-100 hover:bg-neutral-200 flex justify-center items-center px-[30px] pb-3 pt-4 font-title text-xl leading-none text-black uppercase shadow-md border-2 border-[#4a4a4a]`}
-          >
+          </Button>
+          <Button color={"secondary"} size={"lg"} shadow={true}>
             <Image
               src={"/images/bike-icon.png"}
               width={40}
@@ -138,7 +136,7 @@ export default function Hero() {
               className={`mr-3`}
             />
             test ride
-          </button>
+          </Button>
         </div>
       </div>
     </div>

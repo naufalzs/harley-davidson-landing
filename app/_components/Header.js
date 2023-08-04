@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 
 import Logo from "./Logo";
+import Button from "./Button";
 
 import data from "@/json/config.json";
 
@@ -43,11 +44,11 @@ export default function Header() {
       <nav>
         <ul className={`flex justify-center gap-x-11`}>{navList}</ul>
       </nav>
-      <button
-        className={`shrink-0 bg-black hover:bg-gray-800 flex justify-center items-center px-7 pb-[14px] pt-[16px] font-title text-xl leading-none tracking-wide text-white uppercase`}
-      >
-        contact us
-      </button>
+      <div className={`shrink-0`}>
+        <Button>
+          <span className="tracking-wide">contact us</span>
+        </Button>
+      </div>
     </div>
   );
 }

@@ -48,5 +48,27 @@
       "torque": "118.7",
       "horsepower": "86 HP / 62.8 kW"
     }
-  ]
+  ],
+  "features": {
+    "motorcycle_name": "sportster",
+    "motorcycle_src": "/images/sportster-pearl.png",
+    "promotional_desc": "Powered by the all-new Revolution® Max 1250T. Prepare for a level that surpassed all expectations.",
+    "top_speed": 143,
+    "top_speed_src": "/images/feature-speedometer.jpg",
+    "engine_power": 90,
+    "engine_power_src": "/images/feature-speeding.jpg",
+    "torque_power": 125,
+    "torque_power_src": "/images/feature-engine.jpg",
+    "avatars": [
+      {
+        "src": "/images/avatar-1.jpg"
+      },
+      {
+        "src": "/images/avatar-2.jpg"
+      },
+      {
+        "src": "/images/avatar-3.jpg"
+      }
+    ]
+  }
 }

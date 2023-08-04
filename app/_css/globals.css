@@ -21,3 +21,9 @@
 .cut-box {
   clip-path: polygon(17% 0, 100% 0, 100% 50%, 100% 100%, 0 100%, 0 20%);
 }
+
+@layer utilities {
+  .transition-card {
+    @apply transition-all duration-500 delay-100 ease-in-out
+  }
+}

@@ -70,5 +70,11 @@
         "src": "/images/avatar-3.jpg"
       }
     ]
+  },
+  "featured_bike": {
+    "name": "road glide",
+    "src": "/images/road-glide-black.png",
+    "tagline": "feel the road with convenience",
+    "desc": "The aggressive hot rod look led by the wind-cutting shark-nose fairing is a familiar site on the highway. Crank up the premium audio system, and lay down some serious miles of your own."
   }
 }

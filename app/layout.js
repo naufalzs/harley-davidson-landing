@@ -3,6 +3,7 @@ import { Bebas_Neue, Oswald } from "next/font/google";
 import localfont from "next/font/local";
 
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 const bebasNeue = Bebas_Neue({
   weight: "400",
@@ -41,6 +42,7 @@ export default function RootLayout({ children }) {
         >
           <Header />
           {children}
+          <Footer />
         </div>
       </body>
     </html>

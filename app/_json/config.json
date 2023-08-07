@@ -94,5 +94,124 @@
       "name": "materials",
       "href": null
     }
-  ]
+  ],
+  "social_media": [
+    {
+      "name": "facebook",
+      "img": "/images/facebook-icon.png",
+      "href": "www.facebook.com"
+    },
+    {
+      "name": "twitter",
+      "img": "/images/twitter-icon.png",
+      "href": "www.twitter.com"
+    },
+    {
+      "name": "linked in",
+      "img": "/images/linkedin-icon.png",
+      "href": "www.linkedin.com"
+    }
+  ],
+  "footer": {
+    "menu": [
+      {
+        "title": "home",
+        "list": [
+          {
+            "name": "About us",
+            "href": "/"
+          },
+          {
+            "name": "Events",
+            "href": "/"
+          },
+          {
+            "name": "News",
+            "href": "/"
+          },
+          {
+            "name": "Blog",
+            "href": "/"
+          }
+        ]
+      },
+      {
+        "title": "about",
+        "list": [
+          {
+            "name": "Company",
+            "href": "/"
+          },
+          {
+            "name": "Career",
+            "href": "/"
+          },
+          {
+            "name": "Investors",
+            "href": "/"
+          },
+          {
+            "name": "News",
+            "href": "/"
+          }
+        ]
+      },
+      {
+        "title": "bikes",
+        "list": [
+          {
+            "name": "Motorcycles",
+            "href": "/"
+          },
+          {
+            "name": "Collection",
+            "href": "/"
+          },
+          {
+            "name": "Electronic",
+            "href": "/"
+          },
+          {
+            "name": "Shop all",
+            "href": "/"
+          }
+        ]
+      },
+      {
+        "title": "offers",
+        "list": [
+          {
+            "name": "Shipping",
+            "href": "/"
+          },
+          {
+            "name": "Exchanges",
+            "href": "/"
+          },
+          {
+            "name": "Insurance",
+            "href": "/"
+          },
+          {
+            "name": "Service",
+            "href": "/"
+          }
+        ]
+      }
+    ],
+    "info": [
+      {
+        "name": "Privacy Policy",
+        "href": "/"
+      },
+      {
+        "name": "Disclaimers",
+        "href": "/"
+      },
+      {
+        "name": "Insurance",
+        "href": "/"
+      }
+    ]
+  }
 }

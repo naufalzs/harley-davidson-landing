@@ -3,6 +3,7 @@ import Features from "@/components/Features";
 import FeaturedBike from "@/components/FeaturedBike";
 import Gears from "@/components/Gears";
 import Collection from "@/components/Collection";
+import Community from "@/components/Community";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <FeaturedBike />
       <Gears />
       <Collection />
+      <Community />
     </>
   );
 }

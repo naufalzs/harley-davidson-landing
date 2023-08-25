@@ -3,7 +3,12 @@
     {
       "name": "bikes",
       "href": "",
-      "dropdown": true
+      "dropdown": true,
+      "dropdown_list": [
+        "grand america touring",
+        "cruiser",
+        "sport"
+      ]
     },
     {
       "name": "new arrivals",

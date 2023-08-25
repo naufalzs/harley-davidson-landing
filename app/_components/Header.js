@@ -13,18 +13,33 @@ export default function Header() {
     return item.dropdown ? (
       <li
         key={item.name}
-        className={`flex items-center font-title text-xl tracking-wider uppercase cursor-pointer`}
+        className={`relative flex items-center font-title text-xl tracking-wider uppercase group`}
       >
-        {item.name}
-        <span>
-          <Image
-            src={"/images/chevron-down.png"}
-            width={18}
-            height={18}
-            className="ml-1"
-            alt="chevron-down"
-          />
-        </span>
+        <div className={`z-20 flex items-center cursor-pointer`}>
+          {item.name}
+          <span>
+            <Image
+              src={"/images/chevron-down.png"}
+              width={18}
+              height={18}
+              className="ml-1"
+              alt="chevron-down"
+            />
+          </span>
+        </div>
+        <ul
+          className={`invisible absolute right-0 bottom-0 z-10 translate-y-3/4 w-max bg-orange-100 capitalize opacity-0 
+          group-hover:visible group-hover:opacity-100 group-hover:translate-y-full transition-dropdown`}
+        >
+          {item.dropdown_list.map((dropItem) => (
+            <li
+              key={dropItem}
+              className={`p-2 cursor-pointer text-neutral-600 hover:text-primary-black`}
+            >
+              {dropItem}
+            </li>
+          ))}
+        </ul>
       </li>
     ) : (
       <li

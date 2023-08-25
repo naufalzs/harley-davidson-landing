@@ -26,4 +26,7 @@
   .transition-card {
     @apply transition-all duration-500 delay-100 ease-in-out
   }
+  .transition-dropdown {
+    @apply transition-all duration-200 delay-100 ease-in-out
+  }
 }

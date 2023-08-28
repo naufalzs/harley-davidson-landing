@@ -26,7 +26,7 @@ const compactaBT = localfont({
 });
 
 export const metadata = {
-  title: "Harley Landing",
+  title: "Harley Davidson",
   description: "Example Harley Davidson Landing Page",
 };
 

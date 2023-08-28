@@ -59,7 +59,7 @@ export default function Collection() {
             />
 
             <div className={`ml-8 font-title text-4xl leading-tight`}>
-              men's <br />
+              men&#39;s <br />
               motorcycle <br />
               helmet
             </div>

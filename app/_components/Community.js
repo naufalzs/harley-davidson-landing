@@ -28,7 +28,7 @@ export default function Community() {
   const { community } = data;
 
   const harleyFeatures = community.map((item) => (
-    <FeatureList isButton={item.href}>{item.name}</FeatureList>
+    <FeatureList key={item.name} isButton={item.href}>{item.name}</FeatureList>
   ));
 
   return (
